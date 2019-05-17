@@ -1,0 +1,7 @@
+<button mat-button class="list-button" (click)="goToList()">Back to List</button>
+
+<div class='todo-row'>
+  <input type="checkbox" id="is-done" [(ngModel)]="todo.isDone" (ngModelChange)="updateTodo(todo)">
+  <input type="text" class="form-control todo-title" [(ngModel)]="todo.title" (ngModelChange)="updateTodo(todo)">
+  <button mat-button class="delete-button" (click)="deleteTodo(todo._id)">Delete</button>
+</div>

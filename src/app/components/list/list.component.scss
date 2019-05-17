@@ -1,0 +1,37 @@
+form {
+  background: lightgrey;
+  // border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: gray;
+}
+
+#new-todo-title {
+  // margin: 20px;
+  // text-align: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10px;
+  // margin-top: 10px;
+  width: 80vw;
+}
+
+.todo-row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 5px;
+}
+
+.view-button {
+  margin: 10px;
+}
+
+#is-done {
+  margin: 5px;
+}
+
+.todo-title {
+  width: 65vw;
+  // padding-left: 10px;
+}

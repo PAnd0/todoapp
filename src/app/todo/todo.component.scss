@@ -1,0 +1,19 @@
+.todo-row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 5px;
+}
+
+.delete-button {
+  margin: 10px;
+}
+
+#is-done {
+  margin: 5px;
+}
+
+.todo-title {
+  width: 80vw;
+  // padding-left: 10px;
+}
